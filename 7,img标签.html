@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>img标签</title>
+</head>
+<body>
+<!--
+1，img标签中的img其实是image的缩写，所以img标签作用是告诉浏览器我们要显示一张图片
+2，img标签格式：<img src=""> 其实img标签中的src是英文source的缩写，所以img标签中的src就是用来告诉img标签，需要显示的图片名称
+3，注意点：
+    -和H系列标签、p标签，Hr标签不一样，img标签不会独占一行
+    -如果手动指定了img标签显示的图片的宽度和高度，有可能会导致图片变形，如果又想指定高度和宽度，又不想变形，可以只指定其中一种，系统会自动计算出高宽
+属性：
+    width:宽度
+    height:高度
+width和height的作用是告诉img标签要显示多高多宽，如果没有width和height就按照默认的宽高显示
+    title：用于告诉浏览器当鼠标悬停，会弹出输入的内容
+    alt:是alternate的缩写，作用是告诉浏览器，当需要显示的图片不存在时显示什么内容
+    -->
+
+<img src="food.jpg">
+<img src="food.jpg" width="200" height="300">
+<img src="food.jpg" width="200">
+<img src="food.jpg" height="300">
+<img src="food.jpg" width="200" height="300" title="好吃">
+<img src="food1.jpg" width="100" title="好吃" alt="不存在的">
+<img src="food2.jpg" width="300" title="好吃" alt="不存在的">
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>a标签基本使用</title>
+</head>
+<body>
+<!--
+a标签
+a标签基本使用
+作用：就是用于控制页面与页面之间跳转
+格式：<a herf="指定需要跳转的指定页面">需要展现给用户的内容</a>
+注意点：
+    1，a标签不知能让文字可以点击，还可以让图片可以点击
+    2，一个a标签必须有一个herf属性，否则a标签不知道跳转哪里
+    3，如果通过herf属性指定一个url地址，那么必须在地址前面加上http://或者https://
+    4，a标签的herf属性除了可以指定一个网络地址以外，还可以制定一个本地地址
+a标签其他属性
+    1，a标签中有一个target属性，作用是专门用于如何跳转
+        _self：用于在当前选项卡跳转，默认是_self
+        _blank:用于在新的选项卡跳转
+    2,a标签中有title属性，a标签中的title和img标签中的title是一样的，都是用来控制鼠标悬停是现实的提示文本的
+
+-->
+
+<a href="https://www.hao123.com/?tn=94158081_hao_pg">hao123</a>
+<a href="https://www.bilibili.com/"><img src="food.jpg"></a>
+
+<a href="8,br标签.html">8,br标签.html</a>
+
+<a href="https://www.bilibili.com/" target="_self"><img src="food.jpg"></a>
+<a href="https://www.bilibili.com/" target="_blank"><img src="food.jpg"></a>
+<a href="https://www.bilibili.com/" target="_blank" title="会跳转bilibili"><img src="food.jpg"></a>
+
+</body>
+</html>
