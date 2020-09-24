@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>16，定义列表</title>
+</head>
+<body>
+
+<!--
+定义列表
+作用：
+    给一堆数据添加列表语义，先通过dt标签定义所有标题，然后通过dd对标题进行描述
+格式：
+    <dl>
+        <dt></dt>
+        <dd></dd>
+        <dt></dt>
+        <dd></dd>
+    </dl>
+    dt和dd：
+        dt是definition title的缩写，所以dt含义是定义列表的标题
+        dd是definition description的缩写，所以dd含义是定义对应标题的描述
+用途：
+    1，用做网站底部的相关信息
+    2，做图文混排
+注意点：
+    1，和ul和ol一样，dl和dt/dd是一个整体，所以一般情况下，不会单独出现，而是一起出现
+    2，和ul和ol一样，由于dl和dt/dd是一个组合标签，所以dl中只建议放dt/dd标签
+    3，一个dt可以没有对应的dd，也可以对应多个dd，但是这两种都不推荐，只推荐一个dt对应一个dd
+    4，和li标签一样，当需要丰富页面时，我们可以在dt标签和dd标签中继续添加其他标签
+-->
+
+<dl>
+    <dt>北京</dt>
+    <dd>中国的首都</dd>
+    <dt>鲍子沟</dt>
+    <dd>富人集中地</dd>
+</dl>
+
+</body>
+</html>
