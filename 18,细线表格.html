@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18.细线表格</title>
+</head>
+<body>
+
+<!--
+在表格标签中想通过指定外边距为0来实现细线表格是不靠谱的，其实他是将2条线合并为了一条线
+细线表格制作方式：
+    1，给table标签设置bgcolor="black"
+    2，给tr标签设置bgcolor="black"
+    3，给table标签设置cellspacing="1px"
+注意点：
+table标签和tr标签td标签都支持bgcolor属性，但是以后还是要用css
+
+-->
+
+<table bgcolor="black" cellspacing="1px">
+    <tr bgcolor="white">
+        <td>1.1</td>
+        <td>1.2</td>
+    </tr>
+    <tr bgcolor="white">
+        <td bgcolor="red">2.1</td>
+        <td>2.2</td>
+    </tr>
+</table>
+
+
+</body>
+</html>
