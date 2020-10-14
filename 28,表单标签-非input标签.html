@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>28,表单标签-非input标签</title>
+</head>
+<body>
+
+<!--
+1，select标签
+作用：用来定义下拉类表
+格式：
+    <select>
+        <optgroup label="分组数据">
+            <option>列表数据</option>
+        </optgroup>
+    </select>
+注意点：
+    1，下拉列表中不能输入内容，但是能下拉然后选
+    2，可以通过给option标签添加一个selected属性来指定列表的默认值
+    3，可以通过给option标签包裹optgroup标签来给下拉列表中的数据分类
+
+2，textarea标签
+作用：定义一个多行的输入框
+格式：
+注意点：
+    1，默认情况下输入框可以无限换行
+    2，默认情况下输入框有自己的宽度和高度
+    3，可以通过cols和rows指定输入框的宽度和高度，但是还是可以无限往下输入
+    4，默认情况下输入框可以手动拉伸
+-->
+请选择你的车型：
+<select>
+    <optgroup label="东风本田">
+        <option selected="selected">CRV</option>
+        <option>英诗派</option>
+    </optgroup>
+    <optgroup label="广汽本田">
+        <option>皓影</option>
+        <option>雅阁</option>
+    </optgroup>
+</select>
+<br>
+<hr>
+
+<textarea name="" id="" cols="30" rows="10">
+哈哈
+</textarea>
+
+</body>
+</html>

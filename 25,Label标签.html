@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>25,Label标签</title>
+</head>
+<body>
+
+<!--
+1，默认情况下，文字和输入框是没有关联关系的，也就是说点击文字输入框不会聚集，如果想点击文字输入框会聚集，那么就需要文字和输入框绑定
+2，想让文字和输入框绑定在一起，需要用Label标签
+3，绑定的格式：
+    3.1将文字利用label标签包裹
+    3.2给输入框一个id属性
+    3.3在label标签中通过for属性合输入框中的id关联
+    <label for="1">账号：</label><input type="text" name="aa" value="11" id="1">
+-->
+
+<form action="">
+    <label for="1">账号：</label><input type="text" name="aa" value="11" id="1">
+    <br>
+    <label for="pwd">密码：</label><input type="password" name="bb" id="pwd"><br>
+
+
+    <!--这种不灵活，不推荐-->
+    <label>
+        账号：<input type="text">
+    </label>
+
+</form>
+
+</body>
+</html>
