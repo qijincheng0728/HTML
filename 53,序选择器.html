@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>53,序选择器</title>
+    <style>
+        /*p:first-child{
+        color:red;
+        }*/
+        /*p:first-of-type{
+        color:blue;
+        }*/
+        /*p:last-child{
+        color:blue;
+        }*/
+        /*p:last-of-type{
+        color:blue;
+        }*/
+        /*p:nth-child(3){
+        color:skyblue;
+        }*/
+        /*p:nth-of-type(3){
+        color:skyblue;
+        }*/
+        /*p:nth-last-child(2){
+        color:skyblue;
+        }*/
+        /*p:nth-last-of-type(2){
+        color:pink;
+        }*/
+        /*p:only-child{
+        color:pink;
+        }*/
+        p:only-of-type{
+        color:pink;
+        }
+
+    </style>
+</head>
+<body>
+<!--
+CSS3中新增的选择器最具代表性的就是序选择器
+1，同级别的第几个
+:first-child 选中同级别中的第一个标签
+注意点：不区分类型
+:last-child 选中同级别中的最后一个标签
+注意点：不区分类型
+:nth-child(n) 选中同级别中的第n个标签
+注意点：不区分类型
+:nth-last-child(n) 选中同级别中的倒数第n个标签
+注意点：不区分类型
+:only-child 选中父元素中惟一的元素
+注意点：不区分类型
+
+
+2，同类型的第几个
+:first-of-type 选中同级别中同类别的第一个标签
+:last-of-type 选中同级别中同类别的最后一个标签
+:nth-of-type(n) 选中同级别中同类别的第n个标签
+:nth-last-of-type(n) 选中同级别中同类别的倒数第n个标签
+:only-of-type 选中父元素中惟一类型的某个标签
+
+-->
+<!--<h1>我是标题</h1>
+<p>我是段落1</p>
+<p>我是段落2</p>
+<p>我是段落3</p>
+<p>我是段落4</p>
+<div>
+    <p>我是段落5</p>
+    <p>我是段落6</p>
+    <p>我是段落7</p>
+    <p>我是段落8</p>
+</div>-->
+
+<p>1</p>
+<div>
+    <p>2</p>
+</div>
+
+
+</body>
+</html>
